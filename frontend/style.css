@@ -1,0 +1,31 @@
+body { 
+    margin: 0; 
+    /* padding: 20px;  */
+}
+
+.infobar{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    color: #ff0000;
+    border-bottom: 2px solid rgb(31, 81, 255);
+}
+
+.container1{
+    place-items: center;
+}
+canvas { 
+    border: 2px solid rgb(255, 0, 217); 
+    background-color: fuchsia;
+    display: block;
+    height: 95vh;
+    width: 95vw;
+}
+
+#findplayer {
+    cursor: pointer;
+    border: #ff0000;
+    border-width: 10rem;
+    background-color: yellow;
+}
